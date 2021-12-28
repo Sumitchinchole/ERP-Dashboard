@@ -1,0 +1,102 @@
+.sales-summary {
+  width: 100%;
+  margin-top: 40px;
+  justify-content: space-between;
+  display: flex;
+}
+.chart {
+  margin: 0px 8px;
+  background-color: white;
+  width: 42%;
+  box-shadow: 0 3px 6px 0 #555;
+  border-radius: 3px;
+  padding: 10px;
+}
+.heading {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  color: gray;
+}
+.heading select {
+  border: 1px solid gray;
+  width: 125px;
+}
+.sales{
+  margin-top: 10px;
+  display: flex;
+  justify-content: space-between;
+  text-align: center;
+  font-weight: bold;
+  font-size: 14px;
+}
+.sales-data{
+  padding: 0px 25px;
+  text-align: center;
+}
+.sales-data div span{
+  color: gray;
+}
+.chart-data{
+  margin-top: 15px;
+}
+.chart-title{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.customer {
+  width: 18%;
+  color: gray;
+  font-weight: bold;
+}
+.vip-custom{
+    border: 2px solid gray;
+    padding: 18px;
+    border-radius: 10px;
+    background-color: white;
+    text-align: center;
+    margin-bottom: 10px;
+}
+.regular-custom{
+    border: 2px solid blue;
+    padding: 18px;
+    border-radius: 10px;
+    background-color: white;
+    text-align: center;
+    margin-bottom: 10px;
+}
+.risk-custom{
+    border: 2px solid green;
+    padding: 18px;
+    border-radius: 10px;
+    background-color: white;
+    text-align: center;
+    margin-bottom: 10px;
+}
+.lost-custom{
+    border: 2px solid yellow;
+    padding: 18px;
+    border-radius: 10px;
+    background-color: white;
+    text-align: center;
+}
+.custome{
+    color: blue;
+  }
+
+.best-selling-products {
+  width: 35%;
+  background-color: white;
+  box-shadow: 0 3px 6px 0 #555;
+  border-radius: 3px;
+  padding: 10px;
+}
+.products{
+    display: flex;
+    justify-content: space-between;
+}
+.chart-show{
+  margin-top: 10px;
+  height: 100%;
+}
